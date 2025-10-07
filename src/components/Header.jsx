@@ -21,14 +21,6 @@ export default function Header() {
           Home
         </Link>
         <Link
-          to="/"
-          className={
-            isActive("/") ? "text-white" : "text-gray-400 hover:text-white"
-          }
-        >
-          About
-        </Link>
-        <Link
           to="/writing"
           className={
             isActive("/writing")
@@ -39,12 +31,24 @@ export default function Header() {
           Writing
         </Link>
         <Link
-          to="/resume.pdf"
-          target="_blank"
-          rel="noopener noreferrer"
-          className="text-gray-400 hover:text-white"
+          to="/projects"
+          className={
+            isActive("/projects")
+              ? "text-white"
+              : "text-gray-400 hover:text-white"
+          }
         >
-          Resume
+          Projects
+        </Link>
+        <Link
+          to="/quotes"
+          className={
+            isActive("/quotes")
+              ? "text-white"
+              : "text-gray-400 hover:text-white"
+          }
+        >
+          Quotes
         </Link>
       </nav>
     </header>
