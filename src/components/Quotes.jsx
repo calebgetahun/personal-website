@@ -8,6 +8,10 @@ export default function Quotes() {
       text: "We suffer more often in imagination than in reality.",
       author: "Seneca",
     },
+    {
+      text: "The best way out is always through.",
+      author: "Robert Frost",
+    },
   ];
 
   return (
