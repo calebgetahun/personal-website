@@ -1,5 +1,19 @@
 const personal = [
   {
+    title: "Thread-Safe, Sharded, In-Memory Cache",
+    tagline:
+      "Low-latency key–value store with eviction, TTL, and network access",
+    stack: ["Python", "TCP", "Threading", "Custom Protocol"],
+    blurb:
+      "In-memory key–value cache supporting LRU eviction, shard-level isolation, and lazy TTL expiration. Exposed via a lightweight TCP protocol with GET/PUT/DELETE semantics, designed to explore concurrency, eviction tradeoffs, and a clear path toward distributed replication.",
+    links: [
+      {
+        label: "GitHub",
+        href: "https://github.com/calebgetahun/distributed-cache",
+      },
+    ],
+  },
+  {
     title: "Rubik’s Cube Solver",
     tagline: "End-to-end pipeline · from images to solution",
     stack: ["Python", "OpenCV", "FastAPI", "GCP", "Swift"],
